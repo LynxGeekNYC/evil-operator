@@ -14,4 +14,5 @@ Installation:
 Usage:
 ======
 1.) There are 2 callfiles (callfile1.bak and callfile2.bak). You can also make multiple other callfiles. Each callfile connects one person. If you need to connect multiple people, then you will need to copy multiple callfiles (callfile1.back, callfile2.bak, callfile3.bak, etc).
+
 2.) Configure merge.sh:
