@@ -1,0 +1,8 @@
+Channel: SIP/17187105263@Flowroute
+CallerID: 16762837043
+MaxRetries: 2
+RetryTime: 3
+Context: merge
+Extension: s
+Priority: 1
+

@@ -1,0 +1,6 @@
+[merge]
+exten => s,1,Answer
+exten => s,2,Set(CALLFILENAME=${STRFTIME(${EPOCH},,%Y%m%d-%H%M%S)},g)
+exten => s,3,Monitor(wav,MERGE-${CALLFILENAME},m)
+exten => s,4,ConfBridge(5000)
+exten => s,5,Hangup()
