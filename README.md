@@ -1,6 +1,6 @@
 Please Donate:
 ==============
-CashApp: LynxGeekNYC
+CashApp: LynxGeekNYC or 
 PayPal: mirvisconsulting@gmail.com
 
 Disclaimer
