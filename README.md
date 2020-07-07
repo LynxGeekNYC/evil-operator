@@ -34,12 +34,12 @@ Usage:
 So it would be good to login to your CLI and Kill that channel
 
 2.) There are 3 merge files:
-merge-all.sh - Merges 2 or more calls using ALL randomly generated US Based Caller ID numbers
-merge-local.sh - Merges 2 or more calls using ALL randomly generated Local Caller ID numbers based on what you edited in the C++ file
-merge-static.sh - Manually enter the caller ID file in the callback.bak files.
+bridge-all.sh - Merges 2 or more calls using ALL randomly generated US Based Caller ID numbers
+bridge-local.sh - Merges 2 or more calls using ALL randomly generated Local Caller ID numbers based on what you edited in the C++ file
+bridge-static.sh - Manually enter the caller ID file in the callback.bak files.
 
-3.) Once you entered the phone numbers and decided which type of call you would like to make, use this command to run the code:
-'./merge-all.sh 1'
+3.) Once you entered the phone numbers in the  and decided which type of call you would like to make, use this command to run the code:
+'./bridge-all.sh 1'
 
 Note:
 1.) All the recordings are stored in: '/var/spool/asterisk/monitor' directory
