@@ -8,7 +8,7 @@ do
  chown asterisk:asterisk callfile.call
  mv callfile.call /var/spool/asterisk/outgoing/
 sleep 1
- ./loca2
+ ./local2
  cp callfile2.bak callfile.call
  chmod 777 callfile.call
  chown asterisk:asterisk callfile.call
