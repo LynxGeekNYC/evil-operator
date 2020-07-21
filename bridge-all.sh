@@ -2,13 +2,13 @@
 COUNTER=$1
 for (( c=1; c<=COUNTER; c++))
 do
- ./all
+ ./output
  cp callfile.bak callfile.call
  chmod 777 callfile.call
  chown asterisk:asterisk callfile.call
  mv callfile.call /var/spool/asterisk/outgoing/
 sleep 1
- ./all
+ ./output2
  cp callfile2.bak callfile.call
  chmod 777 callfile.call
  chown asterisk:asterisk callfile.call
