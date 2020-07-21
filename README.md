@@ -19,10 +19,15 @@ Requirements:
 Installation:
 =============
 1.) Create a conference Bridge (By Default, it's edited to extension 5000)
+
 2.) Copy the dialplan / call context (merge-context.txt) details into your custom extension configuration file
+
 3.) Compile the 2 C++ Files
-all.cpp - Will generate All CallerID Numbers in US
-local.cpp - Will generate All LOCAL (Must edit the CPP to change your local caller ID's) Caller ID numbers
+
+output.cpp & output2.cpp - Will generate All CallerID Numbers in US (There are two files. output.cpp and output2.cpp These two files need to be compiled as output and output2). 
+local.cpp & output2.cpp - Will generate All LOCAL (Must edit the CPP to change your local caller ID's) Caller ID numbers - (There are 2 files. They also both need to be compiled separately.)
+
+Reason is... Each file changes the caller IP in separate callfile.
 
 Usage:
 ======
@@ -41,6 +46,8 @@ bridge-static.sh - Manually enter the caller ID file in the callback.bak files.
 
 3.) Once you entered the phone numbers in the  and decided which type of call you would like to make, use this command to run the code:
 './bridge-all.sh 1'
+
+If the shell script doesn't work, try using "sudo sh ./bridge-all.sh 1"
 
 Note:
 1.) All the recordings are stored in: '/var/spool/asterisk/monitor' directory
