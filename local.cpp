@@ -12,7 +12,7 @@ int main()
 	/* File pointer to hold reference of input file */
 	FILE * fPtr;
 	FILE * fTemp;
-	char path[100] = "callfile2.bak";
+	char path[100] = "callfile.bak";
 
 	char buffer[BUFFER_SIZE], buffer1[25] = {0};
 	int newline[11];
