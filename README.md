@@ -1,3 +1,5 @@
+# Please Donate!
+
 I put a lot of work into these scripts so please donate if you can. Even $1 helps!
 
 PayPal: alex@alexandermirvis.com
