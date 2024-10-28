@@ -1,7 +1,10 @@
-Please Donate:
-==============
-CashApp: LynxGeekNYC or 
-PayPal: mirvisconsulting@gmail.com
+I put a lot of work into these scripts so please donate if you can. Even $1 helps!
+
+PayPal: alex@alexandermirvis.com
+
+CashApp / Venmo: LynxGeekNYC
+
+BitCoin: bc1q8sthd96c7chhq5kr3u80xrxs26jna9d8c0mjh7
 
 Also please subscribe to my YouTube Channel to see how I use this script to decimate Indian Scammers: https://www.youtube.com/channel/UCAhfUHcEm_qQzhlLw5DnDsg?view_as=subscriber
 
